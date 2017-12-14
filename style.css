@@ -51,8 +51,8 @@ body {
 }
 
 .btn {
-  color: #FF7D7F;
-  background: #fff;
+  color: #fff;
+  background: #293445;
   padding: 10px 40px;
   text-decoration: none; 
   transition: background .5s; 
