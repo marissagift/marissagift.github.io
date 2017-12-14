@@ -89,6 +89,10 @@ body {
   transition: background .5s;  
 }
 
+.logo{
+    float:left;
+}
+
 .main .container {
   margin: 80px auto;
 }
