@@ -27,10 +27,11 @@ body {
 }
 
 .header h1 {
-  color: #FF7D7F;
+  color: #fff;
+  text-outline: 2px 2px #FF7D7F;
   font-family: 'Berkshire Swash', cursive;
   line-height: 100px; 
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase; 
