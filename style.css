@@ -81,7 +81,7 @@ body {
   transition: background .5s; 
 }
 
-.btn:hover, .nav ul li:hover {
+.btn:hover, .nav ul li:hover, a:hover {
   Color: #FF7D7F
   background: #fff;
   cursor: pointer; 
