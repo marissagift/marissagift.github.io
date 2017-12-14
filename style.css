@@ -60,7 +60,7 @@ body {
 }
 
 .nav { 
-  background: #FFF;
+  background: #293445;
   height: 80px; 
   width: 100%;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .btn:hover, .nav ul li:hover {
-  Color: #fff
+  Color: #FF7D7F
   background: #FF7D7F;
   cursor: pointer; 
   transition: background .5s;  
