@@ -9,9 +9,10 @@ body {
   color: #293445;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Shrikhand', cursive;
   color: #293445;
+  text-align: center
 }
 
 .container {
