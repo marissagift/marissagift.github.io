@@ -154,4 +154,9 @@ body {
   .main img {
     width: 100%;
   }
+  
+  a:link, a:visited {
+  text-decoration: none;
+  }
+  
 }
