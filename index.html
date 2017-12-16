@@ -4,8 +4,13 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text|Shrikhand" rel="stylesheet">
-<link href="style.css" type="text/css" rel="stylesheet">
-    
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+    .mySlides {display:none;}
+    </style>
   </head>
   
   <body>
@@ -28,9 +33,35 @@
       <div class="container">
         <h2>இ Everyone Love Sweetness இ </h2>
         <p>Cake is a form of sweet dessert that is typically baked.</p>
+        <p> In its oldest forms, cakes were modifications of breads, but cakes now cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries, meringues, custards, and pies.</p>
         <p>Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays. There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are centuries old.</p>
+        <p>Marissa Cake is a locally-owned business that was established in 2019. We offer a wide array of delicious cakes and pastries made fresh daily.</p>
         <p>At Marissa Cake, we offer a variety of cakes and tarts to suit everyone's taste! From classics like rich Red Velvet to specialties like our popular Whisper Cake, you'll find that each one adds an elegant touch to any occasion.</p>
-         
+        
+     <div class="w3-content w3-section" style="max-width:100px">
+         <img class="mySlides" src="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/b/97/b97d9f3c-b040-11e6-b727-9b1cb0dc9866/583380c7aef23.image.jpg" style="width:100">
+         <img class="mySlides" src="https://cdn-images-1.medium.com/max/640/1*mqrvKwbAEbnmdbRmLu50bQ.jpeg" style="width:100">
+         <img class="mySlides" src="https://i.pinimg.com/originals/4c/0e/c4/4c0ec4f54430b5d986107cb264861900.jpg" style="width:100">
+         <img class="mySlides" src="https://i.pinimg.com/736x/99/64/dc/9964dc37bb651d5b9e8868c61c503d91--french-apple-tart-apple-tarts.jpg" style="width:100>
+    </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script> 
+        
          <div class="Specialty">
            <h3>இ Our Specialty Cake இ</h3>
             <ul >
