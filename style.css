@@ -57,11 +57,34 @@ h2, h3 {
   text-transform: uppercase; 
 }
 
-.btn {
+a.button {
   color: #fff;
   background: #293445;
   padding: 10px 40px;
-  text-decoration: none; 
+  text-decoration: none;
+  
+  display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+
+     text-rendering: auto;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+    border: 2px outset buttonface;
+    border-image: initial;
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    cursor: default;
+  
   transition: background .5s; 
 }
 
@@ -160,17 +183,6 @@ h2, h3 {
 
   .main img {
     width: 100%;
-  }
-  
-  a:link, a:visited {
-    text-decoration: none;
-    color: #FF7D7F;
-    display: inline-block; 
-    height: 80px;
-    line-height: 80px; 
-    list-style: none;
-    padding: 0 10px;
-    transition: background .5s; 
   }
   
 }
