@@ -90,12 +90,8 @@ h2, h3 {
 }
 
 .btn:hover {
-  Color: #FF7D7F
-  background: #fff;
-}
-
-.logo{
-    float:left;
+  color: #293445;
+  background: #FF7D7F;
 }
 
 .main .container {
