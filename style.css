@@ -65,38 +65,28 @@ h2, h3 {
   transition: background .5s; 
 }
 
-.nav { 
-  background: #293445;
-  height: 80px; 
-  width: 100%;
-}
-
-.nav ul {
-  height: 80px;
-  list-style: none;
-  margin: 0 auto; 
-  padding: 0;
-  list-style-type: none;
+.topnav {
   overflow: hidden;
-  display: inline-block; 
+  background-color: #333;
 }
 
-.nav ul li {
-    float: left;
-  display: inline-block; 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-/* Change the link color to #111 (black) on hover */
-.nav ul li a:hover {
-    background-color: #111;
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .btn:hover {
