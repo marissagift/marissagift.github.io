@@ -81,8 +81,9 @@ h2, h3 {
   display: inline-block; 
 }
 
-.nav li {
+.nav ul li {
     float: left;
+  display: inline-block; 
 }
 
 .nav ul li a {
