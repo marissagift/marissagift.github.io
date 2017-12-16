@@ -65,7 +65,7 @@ h2, h3 {
   transition: background .5s; 
 }
 
-.nav.a.button {
+.nav a.button {
   color: #fff;
   background: #293445;
   padding: 10px 40px;
@@ -119,7 +119,7 @@ h2, h3 {
   transition: background .5s; 
 }
 
-.btn:hover, .nav ul li:hover {
+.btn:hover, .nav ul li:hover, .nav a.button {
   Color: #FF7D7F
   background: #fff;
   cursor: pointer; 
