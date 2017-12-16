@@ -65,37 +65,6 @@ h2, h3 {
   transition: background .5s; 
 }
 
-.nav a.button {
-  color: #fff;
-  background: #293445;
-  padding: 10px 40px;
-  text-decoration: none;
-  
-  display: inline-block;
-    box-sizing: border-box;
-    margin: 0;
-
-     text-rendering: auto;
-    text-align: center;
-    text-transform: none;
-    text-decoration: none;
-    text-indent: 0;
-    text-shadow: none;
-    letter-spacing: normal;
-    word-spacing: normal;
-
-    border: 2px outset buttonface;
-    border-image: initial;
-
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    cursor: default;
-  
-  transition: background .5s; 
-}
-
 .nav { 
   background: #293445;
   height: 80px; 
@@ -107,16 +76,25 @@ h2, h3 {
   list-style: none;
   margin: 0 auto; 
   padding: 0;
+  list-style-type: none;
+  overflow: hidden;
 }
 
-.nav ul li a.button {
-  color: #FF7D7F;
-  display: inline-block; 
-  height: 80px;
-  line-height: 80px; 
-  list-style: none;
-  padding: 0 10px;
-  transition: background .5s; 
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
 
 .btn:hover {
