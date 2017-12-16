@@ -57,7 +57,15 @@ h2, h3 {
   text-transform: uppercase; 
 }
 
-a.button {
+.btn {
+  color: #fff;
+  background: #293445;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s; 
+}
+
+.nav.a.button {
   color: #fff;
   background: #293445;
   padding: 10px 40px;
@@ -111,7 +119,7 @@ a.button {
   transition: background .5s; 
 }
 
-.btn:hover, .nav ul li:hover, a:hover {
+.btn:hover, .nav ul li:hover {
   Color: #FF7D7F
   background: #fff;
   cursor: pointer; 
