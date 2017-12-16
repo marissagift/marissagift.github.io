@@ -109,7 +109,7 @@ h2, h3 {
   padding: 0;
 }
 
-.nav ul li {
+.nav ul li a.button {
   color: #FF7D7F;
   display: inline-block; 
   height: 80px;
@@ -119,12 +119,14 @@ h2, h3 {
   transition: background .5s; 
 }
 
-.btn:hover, .nav ul li:hover, .nav a.button {
+.btn:hover {
   Color: #FF7D7F
   background: #fff;
   cursor: pointer; 
   transition: background .5s;  
 }
+
+
 
 .logo{
     float:left;
